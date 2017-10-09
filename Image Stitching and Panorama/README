@@ -1,0 +1,10 @@
+The goal here is to create two panoramas :
+1. Using homographies and perspective warping on a common plane
+2. Using cylindrical warping
+The input used in both cases are : input1.png , input2.png and input3.png.
+The output image in both the panoramas are produced by transforming the input2 and input3 to the plane of input1.
+
+To run the code simply use the below command:
+python main.py 1 input1.png input2.png input3.png ./Results/
+
+After running the code, both the images would be saved in the Results folder created in the current directory.
